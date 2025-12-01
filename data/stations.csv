@@ -1,13 +1,13 @@
-station_code,station_name,country,region,station_type
-STN01,Station 01,El Salvador,North America,Base
-STN02,Station 02,Honduras,Central America,Outstation
-STN03,Station 03,Guatemala,North America,Hub
-STN04,Station 04,Honduras,North America,Base
-STN05,Station 05,Honduras,North America,Base
-STN06,Station 06,Mexico,North America,Base
-STN07,Station 07,Guatemala,Central America,Outstation
-STN08,Station 08,Guatemala,Central America,Hub
-STN09,Station 09,Guatemala,North America,Outstation
-STN10,Station 10,Honduras,North America,Outstation
-STN11,Station 11,El Salvador,Central America,Hub
-STN12,Station 12,Guatemala,Central America,Outstation
+station_code,station_name,country,region
+SJO,San José,Costa Rica,Central America
+MEX,Mexico City,Mexico,North America
+SAL,San Salvador,El Salvador,Central America
+GUA,Guatemala City,Guatemala,Central America
+SAP,San Pedro Sula,Honduras,Central America
+PTY,Panama City,Panama,Central America
+MIA,Miami,United States,North America
+BOG,Bogotá,Colombia,South America
+LIM,Lima,Peru,South America
+SCL,Santiago,Chile,South America
+LAX,Los Angeles,United States,North America
+JFK,New York,United States,North America

@@ -52,8 +52,8 @@ iosa_disciplines = pd.DataFrame({
 # 2. Departments dimension
 # -------------------------------------------------------------------
 departments = pd.DataFrame({
-    "department_id": range(1, 8),
-    "department_code": ["FO", "CC", "MX", "GO", "CGO", "SEC", "QMS"],
+    "department_id": range(1, 9),
+    "department_code": ["FO", "CC", "MX", "GO", "CGO", "SEC", "QMS", "DSP"],
     "department_name": [
         "Flight Operations",
         "Cabin Crew",
@@ -61,7 +61,8 @@ departments = pd.DataFrame({
         "Ground Operations",
         "Cargo",
         "Security",
-        "Quality & Safety Management"
+        "Quality & Safety Management",
+        "Dispatch"
     ]
 })
 
@@ -73,29 +74,32 @@ dept_to_disciplines = {
     "GO": ["GRH", "ORG", "DSP"],
     "CGO": ["CGO", "ORG"],
     "SEC": ["SEC", "ORG"],
-    "QMS": ["ORG"]
+    "QMS": ["ORG"],
+    "DSP": ["DSP", "FLT", "ORG"]
 }
 
 # -------------------------------------------------------------------
-# 3. Stations dimension
+# 3. Stations dimension (1 per country, real-like IATA codes)
 # -------------------------------------------------------------------
-stations = pd.DataFrame({
-    "station_code": [f"STN{i:02d}" for i in range(1, 13)],
-    "station_name": [f"Station {i:02d}" for i in range(1, 13)],
-    "country": np.random.choice(
-        ["Costa Rica", "Mexico", "Guatemala", "El Salvador", "Honduras"],
-        size=12
-    ),
-    "region": np.random.choice(
-        ["Central America", "North America", "Caribbean"],
-        size=12
-    ),
-    "station_type": np.random.choice(
-        ["Hub", "Base", "Outstation"],
-        size=12,
-        p=[0.2, 0.3, 0.5]
-    )
-})
+stations_data = [
+    ("SJO", "San José",        "Costa Rica",     "Central America"),
+    ("MEX", "Mexico City",     "Mexico",         "North America"),
+    ("SAL", "San Salvador",    "El Salvador",    "Central America"),
+    ("GUA", "Guatemala City",  "Guatemala",      "Central America"),
+    ("SAP", "San Pedro Sula",  "Honduras",       "Central America"),
+    ("PTY", "Panama City",     "Panama",         "Central America"),
+    ("MIA", "Miami",           "United States",  "North America"),
+    ("BOG", "Bogotá",          "Colombia",       "South America"),
+    ("LIM", "Lima",            "Peru",           "South America"),
+    ("SCL", "Santiago",        "Chile",          "South America"),
+    ("LAX", "Los Angeles",     "United States",  "North America"),
+    ("JFK", "New York",       "United States",    "North America"),
+]
+
+stations = pd.DataFrame(
+    stations_data,
+    columns=["station_code", "station_name", "country", "region"]
+)
 
 # -------------------------------------------------------------------
 # 4. Calendar dimension
