@@ -1,0 +1,401 @@
+audit_id,audit_type,scope,start_date,end_date,station_code,department_id,is_provider_audit,provider_type,lead_auditor,status
+1,Internal IOSA,Internal IOSA - Flight Operations at STN03,2022-05-24,2022-05-29,STN03,1,False,,Auditor 03,Closed
+2,Thematic Audit,Thematic Audit - Flight Operations at STN03,2023-09-23,2023-09-26,STN03,1,False,,Auditor 08,Closed
+3,Station Audit,Station Audit - Cabin Crew at STN03,2021-01-15,2021-01-17,STN03,2,False,,Auditor 01,Closed
+4,Internal IOSA,Internal IOSA - Quality & Safety Management at STN02,2021-02-10,2021-02-15,STN02,7,False,,Auditor 07,Closed
+5,Provider Audit,Provider Audit - Ground Operations at STN08,2022-10-05,2022-10-07,STN08,4,True,Cargo,Auditor 10,Closed
+6,Internal IOSA,Internal IOSA - Security at STN10,2024-06-20,2024-06-23,STN10,6,False,,Auditor 02,Closed
+7,Station Audit,Station Audit - Ground Operations at STN11,2022-09-25,2022-09-30,STN11,4,False,,Auditor 09,Closed
+8,Internal IOSA,Internal IOSA - Maintenance at STN12,2022-03-18,2022-03-23,STN12,3,False,,Auditor 07,Closed
+9,Station Audit,Station Audit - Quality & Safety Management at STN07,2023-12-13,2023-12-18,STN07,7,False,,Auditor 10,Closed
+10,Thematic Audit,Thematic Audit - Ground Operations at STN10,2022-04-09,2022-04-11,STN10,4,False,,Auditor 03,Closed
+11,Station Audit,Station Audit - Security at STN08,2021-05-31,2021-06-04,STN08,6,False,,Auditor 10,Closed
+12,Internal IOSA,Internal IOSA - Cabin Crew at STN05,2024-01-28,2024-02-01,STN05,2,False,,Auditor 03,Closed
+13,Provider Audit,Provider Audit - Cargo at STN07,2023-05-28,2023-05-31,STN07,5,True,Catering,Auditor 06,Closed
+14,Station Audit,Station Audit - Security at STN02,2024-10-30,2024-11-02,STN02,6,False,,Auditor 06,Closed
+15,Thematic Audit,Thematic Audit - Flight Operations at STN09,2023-12-09,2023-12-14,STN09,1,False,,Auditor 01,Closed
+16,Thematic Audit,Thematic Audit - Cabin Crew at STN11,2024-07-03,2024-07-07,STN11,2,False,,Auditor 02,Closed
+17,Station Audit,Station Audit - Security at STN01,2021-09-03,2021-09-08,STN01,6,False,,Auditor 07,Closed
+18,Internal IOSA,Internal IOSA - Quality & Safety Management at STN06,2022-10-16,2022-10-21,STN06,7,False,,Auditor 03,Closed
+19,Internal IOSA,Internal IOSA - Maintenance at STN05,2022-11-13,2022-11-16,STN05,3,False,,Auditor 06,Closed
+20,Station Audit,Station Audit - Quality & Safety Management at STN06,2022-09-28,2022-10-01,STN06,7,False,,Auditor 03,Closed
+21,Provider Audit,Provider Audit - Cargo at STN08,2024-02-16,2024-02-21,STN08,5,True,Ground Handling,Auditor 08,Closed
+22,Thematic Audit,Thematic Audit - Ground Operations at STN08,2023-10-06,2023-10-09,STN08,4,False,,Auditor 04,Closed
+23,Internal IOSA,Internal IOSA - Flight Operations at STN09,2023-02-01,2023-02-05,STN09,1,False,,Auditor 10,Closed
+24,Station Audit,Station Audit - Security at STN11,2023-08-15,2023-08-19,STN11,6,False,,Auditor 05,Closed
+25,Station Audit,Station Audit - Flight Operations at STN04,2021-04-25,2021-04-27,STN04,1,False,,Auditor 07,Closed
+26,Internal IOSA,Internal IOSA - Ground Operations at STN03,2021-04-06,2021-04-11,STN03,4,False,,Auditor 07,Closed
+27,Thematic Audit,Thematic Audit - Cabin Crew at STN04,2022-01-31,2022-02-02,STN04,2,False,,Auditor 09,Closed
+28,Provider Audit,Provider Audit - Security at STN10,2022-07-23,2022-07-27,STN10,6,True,Cargo,Auditor 05,Closed
+29,Station Audit,Station Audit - Cargo at STN01,2024-06-07,2024-06-11,STN01,5,False,,Auditor 08,Closed
+30,Internal IOSA,Internal IOSA - Cabin Crew at STN09,2024-08-17,2024-08-22,STN09,2,False,,Auditor 04,Closed
+31,Internal IOSA,Internal IOSA - Quality & Safety Management at STN04,2024-10-16,2024-10-20,STN04,7,False,,Auditor 01,Closed
+32,Provider Audit,Provider Audit - Ground Operations at STN07,2023-06-05,2023-06-07,STN07,4,True,Maintenance,Auditor 05,Closed
+33,Internal IOSA,Internal IOSA - Security at STN11,2023-02-23,2023-02-28,STN11,6,False,,Auditor 06,Closed
+34,Station Audit,Station Audit - Cabin Crew at STN11,2022-04-06,2022-04-11,STN11,2,False,,Auditor 03,Closed
+35,Provider Audit,Provider Audit - Ground Operations at STN10,2023-05-03,2023-05-06,STN10,4,True,Ground Handling,Auditor 06,Closed
+36,Provider Audit,Provider Audit - Quality & Safety Management at STN06,2023-02-10,2023-02-12,STN06,7,True,Cargo,Auditor 05,Closed
+37,Thematic Audit,Thematic Audit - Quality & Safety Management at STN02,2021-04-05,2021-04-10,STN02,7,False,,Auditor 07,Closed
+38,Provider Audit,Provider Audit - Cabin Crew at STN08,2023-07-08,2023-07-12,STN08,2,True,Cargo,Auditor 05,Closed
+39,Station Audit,Station Audit - Flight Operations at STN01,2021-09-06,2021-09-09,STN01,1,False,,Auditor 01,Closed
+40,Provider Audit,Provider Audit - Maintenance at STN09,2021-02-22,2021-02-25,STN09,3,True,Cargo,Auditor 03,Closed
+41,Station Audit,Station Audit - Ground Operations at STN02,2023-10-26,2023-10-29,STN02,4,False,,Auditor 10,Closed
+42,Internal IOSA,Internal IOSA - Ground Operations at STN07,2024-02-19,2024-02-22,STN07,4,False,,Auditor 08,Closed
+43,Provider Audit,Provider Audit - Flight Operations at STN02,2024-05-24,2024-05-27,STN02,1,True,Cargo,Auditor 10,Closed
+44,Internal IOSA,Internal IOSA - Flight Operations at STN04,2022-04-30,2022-05-05,STN04,1,False,,Auditor 10,Closed
+45,Station Audit,Station Audit - Quality & Safety Management at STN03,2021-02-03,2021-02-07,STN03,7,False,,Auditor 08,Closed
+46,Station Audit,Station Audit - Cabin Crew at STN11,2022-10-24,2022-10-26,STN11,2,False,,Auditor 06,Closed
+47,Internal IOSA,Internal IOSA - Flight Operations at STN12,2022-10-08,2022-10-11,STN12,1,False,,Auditor 01,Closed
+48,Station Audit,Station Audit - Cargo at STN05,2021-04-23,2021-04-28,STN05,5,False,,Auditor 01,Closed
+49,Station Audit,Station Audit - Flight Operations at STN10,2021-11-17,2021-11-21,STN10,1,False,,Auditor 05,Closed
+50,Internal IOSA,Internal IOSA - Security at STN04,2022-08-11,2022-08-15,STN04,6,False,,Auditor 03,Closed
+51,Thematic Audit,Thematic Audit - Ground Operations at STN02,2023-12-02,2023-12-04,STN02,4,False,,Auditor 02,Closed
+52,Provider Audit,Provider Audit - Security at STN02,2021-07-17,2021-07-20,STN02,6,True,Maintenance,Auditor 07,Closed
+53,Provider Audit,Provider Audit - Cabin Crew at STN08,2024-07-01,2024-07-06,STN08,2,True,Catering,Auditor 10,Closed
+54,Station Audit,Station Audit - Maintenance at STN02,2024-12-05,2024-12-09,STN02,3,False,,Auditor 03,In Progress
+55,Provider Audit,Provider Audit - Security at STN01,2023-04-08,2023-04-12,STN01,6,True,Security,Auditor 04,Closed
+56,Thematic Audit,Thematic Audit - Quality & Safety Management at STN10,2023-02-18,2023-02-22,STN10,7,False,,Auditor 01,Closed
+57,Internal IOSA,Internal IOSA - Ground Operations at STN02,2021-11-09,2021-11-11,STN02,4,False,,Auditor 10,Closed
+58,Internal IOSA,Internal IOSA - Flight Operations at STN12,2022-10-26,2022-10-28,STN12,1,False,,Auditor 07,Closed
+59,Internal IOSA,Internal IOSA - Maintenance at STN06,2021-12-08,2021-12-13,STN06,3,False,,Auditor 08,Closed
+60,Station Audit,Station Audit - Quality & Safety Management at STN02,2024-04-13,2024-04-16,STN02,7,False,,Auditor 02,Closed
+61,Station Audit,Station Audit - Flight Operations at STN11,2021-03-28,2021-04-01,STN11,1,False,,Auditor 02,Closed
+62,Provider Audit,Provider Audit - Ground Operations at STN06,2023-10-04,2023-10-09,STN06,4,True,Catering,Auditor 03,Closed
+63,Internal IOSA,Internal IOSA - Cabin Crew at STN09,2024-08-01,2024-08-06,STN09,2,False,,Auditor 02,Closed
+64,Provider Audit,Provider Audit - Ground Operations at STN08,2023-05-04,2023-05-09,STN08,4,True,Ground Handling,Auditor 10,Closed
+65,Station Audit,Station Audit - Security at STN08,2021-01-29,2021-01-31,STN08,6,False,,Auditor 02,Closed
+66,Internal IOSA,Internal IOSA - Cargo at STN09,2021-12-08,2021-12-10,STN09,5,False,,Auditor 09,Closed
+67,Internal IOSA,Internal IOSA - Flight Operations at STN03,2024-10-18,2024-10-20,STN03,1,False,,Auditor 03,Closed
+68,Internal IOSA,Internal IOSA - Maintenance at STN06,2023-01-21,2023-01-26,STN06,3,False,,Auditor 03,Closed
+69,Station Audit,Station Audit - Security at STN07,2023-11-29,2023-12-03,STN07,6,False,,Auditor 03,Closed
+70,Internal IOSA,Internal IOSA - Quality & Safety Management at STN09,2021-01-12,2021-01-15,STN09,7,False,,Auditor 08,Closed
+71,Provider Audit,Provider Audit - Security at STN09,2023-02-17,2023-02-22,STN09,6,True,Ground Handling,Auditor 07,Closed
+72,Station Audit,Station Audit - Flight Operations at STN09,2022-09-07,2022-09-09,STN09,1,False,,Auditor 08,Closed
+73,Internal IOSA,Internal IOSA - Maintenance at STN08,2024-02-06,2024-02-09,STN08,3,False,,Auditor 02,Closed
+74,Internal IOSA,Internal IOSA - Maintenance at STN06,2024-06-16,2024-06-18,STN06,3,False,,Auditor 10,Closed
+75,Internal IOSA,Internal IOSA - Security at STN12,2022-08-08,2022-08-12,STN12,6,False,,Auditor 01,Closed
+76,Internal IOSA,Internal IOSA - Cargo at STN01,2024-03-22,2024-03-26,STN01,5,False,,Auditor 04,Closed
+77,Internal IOSA,Internal IOSA - Cargo at STN11,2021-02-23,2021-02-27,STN11,5,False,,Auditor 07,Closed
+78,Provider Audit,Provider Audit - Cargo at STN09,2023-06-12,2023-06-16,STN09,5,True,Ground Handling,Auditor 09,Closed
+79,Provider Audit,Provider Audit - Security at STN11,2024-07-08,2024-07-12,STN11,6,True,Maintenance,Auditor 02,Closed
+80,Station Audit,Station Audit - Maintenance at STN09,2021-04-25,2021-04-28,STN09,3,False,,Auditor 03,Closed
+81,Internal IOSA,Internal IOSA - Cabin Crew at STN05,2024-04-08,2024-04-13,STN05,2,False,,Auditor 06,Closed
+82,Internal IOSA,Internal IOSA - Maintenance at STN12,2021-10-22,2021-10-25,STN12,3,False,,Auditor 01,Closed
+83,Station Audit,Station Audit - Security at STN07,2023-07-05,2023-07-10,STN07,6,False,,Auditor 04,Closed
+84,Internal IOSA,Internal IOSA - Quality & Safety Management at STN07,2023-08-06,2023-08-08,STN07,7,False,,Auditor 07,Closed
+85,Internal IOSA,Internal IOSA - Ground Operations at STN05,2024-02-28,2024-03-03,STN05,4,False,,Auditor 04,Closed
+86,Provider Audit,Provider Audit - Ground Operations at STN09,2023-07-23,2023-07-27,STN09,4,True,Catering,Auditor 03,Closed
+87,Internal IOSA,Internal IOSA - Cargo at STN03,2021-12-15,2021-12-20,STN03,5,False,,Auditor 05,Closed
+88,Thematic Audit,Thematic Audit - Security at STN11,2022-08-07,2022-08-11,STN11,6,False,,Auditor 01,Closed
+89,Internal IOSA,Internal IOSA - Quality & Safety Management at STN05,2022-08-15,2022-08-18,STN05,7,False,,Auditor 06,Closed
+90,Internal IOSA,Internal IOSA - Quality & Safety Management at STN06,2024-02-01,2024-02-04,STN06,7,False,,Auditor 06,Closed
+91,Station Audit,Station Audit - Cargo at STN09,2022-07-07,2022-07-10,STN09,5,False,,Auditor 08,Closed
+92,Thematic Audit,Thematic Audit - Quality & Safety Management at STN03,2023-09-05,2023-09-08,STN03,7,False,,Auditor 07,Closed
+93,Provider Audit,Provider Audit - Flight Operations at STN02,2022-10-24,2022-10-26,STN02,1,True,Ground Handling,Auditor 03,Closed
+94,Internal IOSA,Internal IOSA - Flight Operations at STN08,2023-08-14,2023-08-19,STN08,1,False,,Auditor 02,Closed
+95,Provider Audit,Provider Audit - Cargo at STN03,2024-07-15,2024-07-19,STN03,5,True,Cargo,Auditor 02,Closed
+96,Station Audit,Station Audit - Ground Operations at STN12,2021-11-14,2021-11-17,STN12,4,False,,Auditor 08,Closed
+97,Station Audit,Station Audit - Cabin Crew at STN10,2024-08-19,2024-08-23,STN10,2,False,,Auditor 10,Closed
+98,Internal IOSA,Internal IOSA - Cabin Crew at STN06,2022-11-18,2022-11-20,STN06,2,False,,Auditor 05,Closed
+99,Provider Audit,Provider Audit - Security at STN09,2022-04-30,2022-05-02,STN09,6,True,Maintenance,Auditor 05,Closed
+100,Internal IOSA,Internal IOSA - Quality & Safety Management at STN06,2021-05-31,2021-06-05,STN06,7,False,,Auditor 04,Closed
+101,Provider Audit,Provider Audit - Security at STN04,2021-04-24,2021-04-27,STN04,6,True,Ground Handling,Auditor 10,Closed
+102,Provider Audit,Provider Audit - Ground Operations at STN05,2024-05-28,2024-05-31,STN05,4,True,Catering,Auditor 06,Closed
+103,Internal IOSA,Internal IOSA - Flight Operations at STN07,2022-02-01,2022-02-03,STN07,1,False,,Auditor 07,Closed
+104,Station Audit,Station Audit - Cabin Crew at STN03,2024-12-11,2024-12-13,STN03,2,False,,Auditor 01,In Progress
+105,Station Audit,Station Audit - Ground Operations at STN04,2024-03-23,2024-03-25,STN04,4,False,,Auditor 05,Closed
+106,Internal IOSA,Internal IOSA - Cabin Crew at STN10,2022-12-16,2022-12-20,STN10,2,False,,Auditor 04,Closed
+107,Thematic Audit,Thematic Audit - Flight Operations at STN12,2022-08-12,2022-08-17,STN12,1,False,,Auditor 10,Closed
+108,Internal IOSA,Internal IOSA - Flight Operations at STN04,2024-11-09,2024-11-14,STN04,1,False,,Auditor 08,Closed
+109,Station Audit,Station Audit - Ground Operations at STN12,2021-06-01,2021-06-06,STN12,4,False,,Auditor 01,Closed
+110,Internal IOSA,Internal IOSA - Quality & Safety Management at STN09,2022-11-18,2022-11-20,STN09,7,False,,Auditor 03,Closed
+111,Provider Audit,Provider Audit - Maintenance at STN09,2023-07-10,2023-07-13,STN09,3,True,Maintenance,Auditor 07,Closed
+112,Provider Audit,Provider Audit - Cargo at STN09,2023-10-03,2023-10-08,STN09,5,True,Cargo,Auditor 01,Closed
+113,Station Audit,Station Audit - Quality & Safety Management at STN12,2024-06-07,2024-06-12,STN12,7,False,,Auditor 02,Closed
+114,Provider Audit,Provider Audit - Flight Operations at STN08,2022-03-29,2022-03-31,STN08,1,True,Cargo,Auditor 09,Closed
+115,Internal IOSA,Internal IOSA - Cargo at STN05,2024-06-25,2024-06-30,STN05,5,False,,Auditor 01,Closed
+116,Provider Audit,Provider Audit - Security at STN09,2023-01-19,2023-01-22,STN09,6,True,Ground Handling,Auditor 05,Closed
+117,Internal IOSA,Internal IOSA - Flight Operations at STN10,2024-01-30,2024-02-04,STN10,1,False,,Auditor 10,Closed
+118,Station Audit,Station Audit - Cabin Crew at STN12,2022-08-01,2022-08-05,STN12,2,False,,Auditor 02,Closed
+119,Internal IOSA,Internal IOSA - Cabin Crew at STN06,2023-06-21,2023-06-23,STN06,2,False,,Auditor 05,Closed
+120,Internal IOSA,Internal IOSA - Quality & Safety Management at STN11,2022-11-03,2022-11-05,STN11,7,False,,Auditor 02,Closed
+121,Provider Audit,Provider Audit - Cabin Crew at STN06,2024-09-14,2024-09-19,STN06,2,True,Maintenance,Auditor 07,Closed
+122,Provider Audit,Provider Audit - Security at STN03,2023-02-07,2023-02-09,STN03,6,True,Maintenance,Auditor 07,Closed
+123,Station Audit,Station Audit - Flight Operations at STN04,2023-06-20,2023-06-22,STN04,1,False,,Auditor 05,Closed
+124,Provider Audit,Provider Audit - Flight Operations at STN10,2022-06-30,2022-07-05,STN10,1,True,Security,Auditor 02,Closed
+125,Station Audit,Station Audit - Ground Operations at STN03,2023-10-31,2023-11-03,STN03,4,False,,Auditor 10,Closed
+126,Internal IOSA,Internal IOSA - Cabin Crew at STN04,2021-04-11,2021-04-16,STN04,2,False,,Auditor 08,Closed
+127,Internal IOSA,Internal IOSA - Cabin Crew at STN09,2024-11-15,2024-11-19,STN09,2,False,,Auditor 03,Closed
+128,Internal IOSA,Internal IOSA - Ground Operations at STN11,2024-11-06,2024-11-11,STN11,4,False,,Auditor 09,Closed
+129,Station Audit,Station Audit - Security at STN11,2021-09-30,2021-10-05,STN11,6,False,,Auditor 02,Closed
+130,Internal IOSA,Internal IOSA - Security at STN05,2021-02-08,2021-02-10,STN05,6,False,,Auditor 09,Closed
+131,Station Audit,Station Audit - Quality & Safety Management at STN01,2023-02-09,2023-02-11,STN01,7,False,,Auditor 05,Closed
+132,Provider Audit,Provider Audit - Ground Operations at STN12,2021-04-18,2021-04-22,STN12,4,True,Ground Handling,Auditor 05,Closed
+133,Internal IOSA,Internal IOSA - Cargo at STN07,2021-10-29,2021-11-02,STN07,5,False,,Auditor 02,Closed
+134,Internal IOSA,Internal IOSA - Ground Operations at STN05,2023-10-12,2023-10-15,STN05,4,False,,Auditor 08,Closed
+135,Station Audit,Station Audit - Flight Operations at STN07,2021-07-07,2021-07-09,STN07,1,False,,Auditor 04,Closed
+136,Station Audit,Station Audit - Flight Operations at STN01,2021-03-01,2021-03-05,STN01,1,False,,Auditor 01,Closed
+137,Station Audit,Station Audit - Cargo at STN10,2024-02-11,2024-02-15,STN10,5,False,,Auditor 09,Closed
+138,Thematic Audit,Thematic Audit - Maintenance at STN02,2021-02-19,2021-02-23,STN02,3,False,,Auditor 01,Closed
+139,Station Audit,Station Audit - Cabin Crew at STN08,2024-01-03,2024-01-08,STN08,2,False,,Auditor 05,Closed
+140,Provider Audit,Provider Audit - Cabin Crew at STN09,2023-09-12,2023-09-17,STN09,2,True,Cargo,Auditor 08,Closed
+141,Internal IOSA,Internal IOSA - Security at STN10,2021-09-07,2021-09-11,STN10,6,False,,Auditor 09,Closed
+142,Internal IOSA,Internal IOSA - Maintenance at STN11,2021-06-14,2021-06-17,STN11,3,False,,Auditor 05,Closed
+143,Internal IOSA,Internal IOSA - Maintenance at STN09,2022-09-21,2022-09-26,STN09,3,False,,Auditor 10,Closed
+144,Internal IOSA,Internal IOSA - Ground Operations at STN03,2021-07-17,2021-07-20,STN03,4,False,,Auditor 01,Closed
+145,Station Audit,Station Audit - Cargo at STN04,2021-08-31,2021-09-04,STN04,5,False,,Auditor 01,Closed
+146,Internal IOSA,Internal IOSA - Cargo at STN01,2021-02-27,2021-03-04,STN01,5,False,,Auditor 10,Closed
+147,Station Audit,Station Audit - Security at STN06,2022-12-10,2022-12-14,STN06,6,False,,Auditor 08,Closed
+148,Internal IOSA,Internal IOSA - Flight Operations at STN06,2021-02-09,2021-02-12,STN06,1,False,,Auditor 01,Closed
+149,Station Audit,Station Audit - Cabin Crew at STN09,2023-10-10,2023-10-12,STN09,2,False,,Auditor 02,Closed
+150,Internal IOSA,Internal IOSA - Ground Operations at STN09,2021-09-22,2021-09-27,STN09,4,False,,Auditor 06,Closed
+151,Station Audit,Station Audit - Security at STN01,2022-06-30,2022-07-02,STN01,6,False,,Auditor 03,Closed
+152,Station Audit,Station Audit - Cargo at STN12,2023-12-26,2023-12-30,STN12,5,False,,Auditor 08,Closed
+153,Internal IOSA,Internal IOSA - Cabin Crew at STN05,2024-08-18,2024-08-23,STN05,2,False,,Auditor 04,Closed
+154,Provider Audit,Provider Audit - Quality & Safety Management at STN11,2022-08-19,2022-08-21,STN11,7,True,Ground Handling,Auditor 08,Closed
+155,Provider Audit,Provider Audit - Cargo at STN04,2023-12-23,2023-12-25,STN04,5,True,Maintenance,Auditor 07,Closed
+156,Station Audit,Station Audit - Security at STN12,2023-09-28,2023-10-02,STN12,6,False,,Auditor 09,Closed
+157,Internal IOSA,Internal IOSA - Security at STN10,2023-11-25,2023-11-29,STN10,6,False,,Auditor 02,Closed
+158,Station Audit,Station Audit - Security at STN02,2022-04-25,2022-04-27,STN02,6,False,,Auditor 08,Closed
+159,Station Audit,Station Audit - Cabin Crew at STN01,2021-12-14,2021-12-19,STN01,2,False,,Auditor 04,Closed
+160,Internal IOSA,Internal IOSA - Ground Operations at STN05,2023-02-19,2023-02-22,STN05,4,False,,Auditor 10,Closed
+161,Thematic Audit,Thematic Audit - Maintenance at STN07,2021-02-18,2021-02-21,STN07,3,False,,Auditor 01,Closed
+162,Internal IOSA,Internal IOSA - Cabin Crew at STN06,2023-05-06,2023-05-08,STN06,2,False,,Auditor 03,Closed
+163,Provider Audit,Provider Audit - Maintenance at STN04,2024-08-17,2024-08-20,STN04,3,True,Security,Auditor 10,Closed
+164,Provider Audit,Provider Audit - Cargo at STN08,2022-02-16,2022-02-21,STN08,5,True,Security,Auditor 01,Closed
+165,Internal IOSA,Internal IOSA - Quality & Safety Management at STN11,2024-02-16,2024-02-18,STN11,7,False,,Auditor 09,Closed
+166,Internal IOSA,Internal IOSA - Ground Operations at STN01,2024-08-27,2024-08-29,STN01,4,False,,Auditor 10,Closed
+167,Thematic Audit,Thematic Audit - Cabin Crew at STN11,2023-11-20,2023-11-25,STN11,2,False,,Auditor 02,Closed
+168,Internal IOSA,Internal IOSA - Cargo at STN06,2022-02-25,2022-03-02,STN06,5,False,,Auditor 01,Closed
+169,Internal IOSA,Internal IOSA - Quality & Safety Management at STN08,2024-05-12,2024-05-15,STN08,7,False,,Auditor 01,Closed
+170,Internal IOSA,Internal IOSA - Flight Operations at STN10,2021-09-19,2021-09-23,STN10,1,False,,Auditor 05,Closed
+171,Internal IOSA,Internal IOSA - Flight Operations at STN09,2021-04-19,2021-04-24,STN09,1,False,,Auditor 06,Closed
+172,Station Audit,Station Audit - Ground Operations at STN11,2021-12-07,2021-12-10,STN11,4,False,,Auditor 05,Closed
+173,Thematic Audit,Thematic Audit - Cabin Crew at STN08,2021-04-14,2021-04-17,STN08,2,False,,Auditor 09,Closed
+174,Provider Audit,Provider Audit - Flight Operations at STN12,2024-03-09,2024-03-12,STN12,1,True,Cargo,Auditor 06,Closed
+175,Provider Audit,Provider Audit - Security at STN03,2022-11-26,2022-11-29,STN03,6,True,Security,Auditor 06,Closed
+176,Station Audit,Station Audit - Cabin Crew at STN11,2023-12-08,2023-12-12,STN11,2,False,,Auditor 09,Closed
+177,Internal IOSA,Internal IOSA - Flight Operations at STN02,2024-02-12,2024-02-17,STN02,1,False,,Auditor 06,Closed
+178,Provider Audit,Provider Audit - Quality & Safety Management at STN09,2023-03-05,2023-03-07,STN09,7,True,Maintenance,Auditor 01,Closed
+179,Internal IOSA,Internal IOSA - Cargo at STN06,2024-11-08,2024-11-13,STN06,5,False,,Auditor 06,Closed
+180,Internal IOSA,Internal IOSA - Flight Operations at STN05,2023-11-03,2023-11-08,STN05,1,False,,Auditor 02,Closed
+181,Internal IOSA,Internal IOSA - Cabin Crew at STN02,2023-12-13,2023-12-17,STN02,2,False,,Auditor 09,Closed
+182,Provider Audit,Provider Audit - Cargo at STN12,2023-11-20,2023-11-24,STN12,5,True,Security,Auditor 07,Closed
+183,Provider Audit,Provider Audit - Ground Operations at STN11,2024-01-25,2024-01-28,STN11,4,True,Ground Handling,Auditor 07,Closed
+184,Station Audit,Station Audit - Cargo at STN02,2022-09-04,2022-09-07,STN02,5,False,,Auditor 03,Closed
+185,Station Audit,Station Audit - Cargo at STN09,2021-08-23,2021-08-25,STN09,5,False,,Auditor 05,Closed
+186,Thematic Audit,Thematic Audit - Maintenance at STN02,2024-08-20,2024-08-24,STN02,3,False,,Auditor 09,Closed
+187,Station Audit,Station Audit - Cargo at STN04,2024-01-29,2024-01-31,STN04,5,False,,Auditor 07,Closed
+188,Station Audit,Station Audit - Flight Operations at STN01,2023-12-25,2023-12-30,STN01,1,False,,Auditor 05,Closed
+189,Internal IOSA,Internal IOSA - Flight Operations at STN08,2023-05-18,2023-05-21,STN08,1,False,,Auditor 10,Closed
+190,Internal IOSA,Internal IOSA - Cargo at STN07,2023-02-23,2023-02-27,STN07,5,False,,Auditor 01,Closed
+191,Station Audit,Station Audit - Ground Operations at STN07,2022-06-03,2022-06-08,STN07,4,False,,Auditor 09,Closed
+192,Internal IOSA,Internal IOSA - Security at STN12,2022-09-08,2022-09-12,STN12,6,False,,Auditor 09,Closed
+193,Thematic Audit,Thematic Audit - Quality & Safety Management at STN06,2024-05-07,2024-05-10,STN06,7,False,,Auditor 09,Closed
+194,Station Audit,Station Audit - Cabin Crew at STN02,2022-05-04,2022-05-07,STN02,2,False,,Auditor 02,Closed
+195,Provider Audit,Provider Audit - Maintenance at STN07,2024-11-14,2024-11-17,STN07,3,True,Catering,Auditor 10,Closed
+196,Internal IOSA,Internal IOSA - Cargo at STN10,2022-07-14,2022-07-19,STN10,5,False,,Auditor 10,Closed
+197,Station Audit,Station Audit - Quality & Safety Management at STN01,2024-07-20,2024-07-24,STN01,7,False,,Auditor 05,Closed
+198,Thematic Audit,Thematic Audit - Quality & Safety Management at STN12,2023-12-04,2023-12-06,STN12,7,False,,Auditor 05,Closed
+199,Internal IOSA,Internal IOSA - Cabin Crew at STN07,2021-01-10,2021-01-15,STN07,2,False,,Auditor 09,Closed
+200,Internal IOSA,Internal IOSA - Cargo at STN04,2022-12-19,2022-12-21,STN04,5,False,,Auditor 02,Closed
+201,Thematic Audit,Thematic Audit - Security at STN03,2024-05-01,2024-05-03,STN03,6,False,,Auditor 06,Closed
+202,Provider Audit,Provider Audit - Quality & Safety Management at STN07,2022-04-07,2022-04-12,STN07,7,True,Catering,Auditor 04,Closed
+203,Station Audit,Station Audit - Security at STN05,2024-10-22,2024-10-27,STN05,6,False,,Auditor 08,Closed
+204,Internal IOSA,Internal IOSA - Security at STN05,2021-06-30,2021-07-03,STN05,6,False,,Auditor 09,Closed
+205,Internal IOSA,Internal IOSA - Quality & Safety Management at STN04,2022-02-24,2022-02-28,STN04,7,False,,Auditor 09,Closed
+206,Provider Audit,Provider Audit - Maintenance at STN04,2023-01-23,2023-01-28,STN04,3,True,Maintenance,Auditor 07,Closed
+207,Station Audit,Station Audit - Ground Operations at STN06,2024-04-29,2024-05-01,STN06,4,False,,Auditor 03,Closed
+208,Internal IOSA,Internal IOSA - Maintenance at STN05,2022-11-12,2022-11-14,STN05,3,False,,Auditor 09,Closed
+209,Internal IOSA,Internal IOSA - Ground Operations at STN02,2024-01-29,2024-02-03,STN02,4,False,,Auditor 04,Closed
+210,Internal IOSA,Internal IOSA - Security at STN09,2023-06-08,2023-06-10,STN09,6,False,,Auditor 01,Closed
+211,Station Audit,Station Audit - Security at STN02,2024-10-31,2024-11-03,STN02,6,False,,Auditor 03,Closed
+212,Station Audit,Station Audit - Cabin Crew at STN04,2021-05-20,2021-05-22,STN04,2,False,,Auditor 06,Closed
+213,Internal IOSA,Internal IOSA - Quality & Safety Management at STN11,2022-03-28,2022-03-30,STN11,7,False,,Auditor 04,Closed
+214,Provider Audit,Provider Audit - Maintenance at STN11,2022-06-02,2022-06-05,STN11,3,True,Cargo,Auditor 09,Closed
+215,Provider Audit,Provider Audit - Quality & Safety Management at STN07,2021-01-22,2021-01-25,STN07,7,True,Maintenance,Auditor 07,Closed
+216,Internal IOSA,Internal IOSA - Flight Operations at STN01,2024-07-30,2024-08-02,STN01,1,False,,Auditor 09,Closed
+217,Provider Audit,Provider Audit - Cabin Crew at STN08,2024-06-25,2024-06-28,STN08,2,True,Security,Auditor 02,Closed
+218,Internal IOSA,Internal IOSA - Security at STN05,2021-09-19,2021-09-24,STN05,6,False,,Auditor 06,Closed
+219,Internal IOSA,Internal IOSA - Cabin Crew at STN07,2023-07-04,2023-07-09,STN07,2,False,,Auditor 01,Closed
+220,Station Audit,Station Audit - Quality & Safety Management at STN06,2023-08-02,2023-08-05,STN06,7,False,,Auditor 08,Closed
+221,Internal IOSA,Internal IOSA - Security at STN08,2022-01-22,2022-01-25,STN08,6,False,,Auditor 06,Closed
+222,Provider Audit,Provider Audit - Maintenance at STN09,2022-07-03,2022-07-05,STN09,3,True,Catering,Auditor 08,Closed
+223,Provider Audit,Provider Audit - Ground Operations at STN11,2023-02-11,2023-02-14,STN11,4,True,Cargo,Auditor 06,Closed
+224,Internal IOSA,Internal IOSA - Ground Operations at STN04,2021-01-21,2021-01-24,STN04,4,False,,Auditor 07,Closed
+225,Provider Audit,Provider Audit - Ground Operations at STN07,2021-02-21,2021-02-26,STN07,4,True,Ground Handling,Auditor 07,Closed
+226,Internal IOSA,Internal IOSA - Flight Operations at STN12,2022-03-01,2022-03-04,STN12,1,False,,Auditor 05,Closed
+227,Provider Audit,Provider Audit - Cabin Crew at STN02,2024-11-25,2024-11-29,STN02,2,True,Cargo,Auditor 02,Closed
+228,Station Audit,Station Audit - Flight Operations at STN05,2022-11-05,2022-11-07,STN05,1,False,,Auditor 10,Closed
+229,Station Audit,Station Audit - Cargo at STN02,2021-06-24,2021-06-27,STN02,5,False,,Auditor 01,Closed
+230,Internal IOSA,Internal IOSA - Security at STN08,2021-11-01,2021-11-05,STN08,6,False,,Auditor 07,Closed
+231,Provider Audit,Provider Audit - Flight Operations at STN02,2024-03-13,2024-03-15,STN02,1,True,Security,Auditor 09,Closed
+232,Station Audit,Station Audit - Cargo at STN07,2023-06-18,2023-06-22,STN07,5,False,,Auditor 05,Closed
+233,Station Audit,Station Audit - Cabin Crew at STN05,2021-03-23,2021-03-26,STN05,2,False,,Auditor 06,Closed
+234,Station Audit,Station Audit - Cargo at STN01,2022-09-11,2022-09-16,STN01,5,False,,Auditor 02,Closed
+235,Provider Audit,Provider Audit - Quality & Safety Management at STN03,2022-04-30,2022-05-04,STN03,7,True,Security,Auditor 07,Closed
+236,Provider Audit,Provider Audit - Flight Operations at STN09,2023-04-24,2023-04-27,STN09,1,True,Cargo,Auditor 06,Closed
+237,Internal IOSA,Internal IOSA - Quality & Safety Management at STN10,2023-03-02,2023-03-05,STN10,7,False,,Auditor 01,Closed
+238,Internal IOSA,Internal IOSA - Quality & Safety Management at STN08,2023-05-18,2023-05-22,STN08,7,False,,Auditor 06,Closed
+239,Internal IOSA,Internal IOSA - Cabin Crew at STN03,2023-04-08,2023-04-13,STN03,2,False,,Auditor 02,Closed
+240,Provider Audit,Provider Audit - Cabin Crew at STN04,2023-03-10,2023-03-14,STN04,2,True,Cargo,Auditor 10,Closed
+241,Internal IOSA,Internal IOSA - Flight Operations at STN08,2024-12-09,2024-12-12,STN08,1,False,,Auditor 08,In Progress
+242,Station Audit,Station Audit - Cabin Crew at STN12,2021-03-15,2021-03-17,STN12,2,False,,Auditor 09,Closed
+243,Internal IOSA,Internal IOSA - Maintenance at STN09,2023-11-04,2023-11-08,STN09,3,False,,Auditor 02,Closed
+244,Internal IOSA,Internal IOSA - Cargo at STN11,2023-04-13,2023-04-18,STN11,5,False,,Auditor 07,Closed
+245,Station Audit,Station Audit - Quality & Safety Management at STN12,2024-05-30,2024-06-02,STN12,7,False,,Auditor 03,Closed
+246,Station Audit,Station Audit - Maintenance at STN09,2021-12-06,2021-12-11,STN09,3,False,,Auditor 07,Closed
+247,Provider Audit,Provider Audit - Security at STN04,2022-01-15,2022-01-19,STN04,6,True,Cargo,Auditor 07,Closed
+248,Internal IOSA,Internal IOSA - Cargo at STN12,2024-01-13,2024-01-17,STN12,5,False,,Auditor 05,Closed
+249,Provider Audit,Provider Audit - Maintenance at STN09,2021-02-05,2021-02-07,STN09,3,True,Catering,Auditor 06,Closed
+250,Provider Audit,Provider Audit - Flight Operations at STN01,2024-10-10,2024-10-15,STN01,1,True,Security,Auditor 07,Closed
+251,Internal IOSA,Internal IOSA - Quality & Safety Management at STN04,2021-04-16,2021-04-20,STN04,7,False,,Auditor 07,Closed
+252,Provider Audit,Provider Audit - Cabin Crew at STN06,2021-08-15,2021-08-20,STN06,2,True,Catering,Auditor 07,Closed
+253,Provider Audit,Provider Audit - Flight Operations at STN07,2023-04-25,2023-04-30,STN07,1,True,Maintenance,Auditor 06,Closed
+254,Internal IOSA,Internal IOSA - Quality & Safety Management at STN01,2022-11-30,2022-12-05,STN01,7,False,,Auditor 01,Closed
+255,Provider Audit,Provider Audit - Quality & Safety Management at STN08,2021-10-03,2021-10-08,STN08,7,True,Cargo,Auditor 01,Closed
+256,Internal IOSA,Internal IOSA - Security at STN10,2021-06-05,2021-06-07,STN10,6,False,,Auditor 07,Closed
+257,Station Audit,Station Audit - Quality & Safety Management at STN08,2021-05-23,2021-05-25,STN08,7,False,,Auditor 04,Closed
+258,Station Audit,Station Audit - Maintenance at STN02,2023-10-14,2023-10-16,STN02,3,False,,Auditor 08,Closed
+259,Internal IOSA,Internal IOSA - Ground Operations at STN06,2021-07-11,2021-07-15,STN06,4,False,,Auditor 06,Closed
+260,Internal IOSA,Internal IOSA - Cargo at STN07,2023-11-18,2023-11-21,STN07,5,False,,Auditor 06,Closed
+261,Thematic Audit,Thematic Audit - Cargo at STN09,2021-03-24,2021-03-27,STN09,5,False,,Auditor 03,Closed
+262,Internal IOSA,Internal IOSA - Security at STN07,2023-01-19,2023-01-21,STN07,6,False,,Auditor 02,Closed
+263,Internal IOSA,Internal IOSA - Cargo at STN11,2021-04-15,2021-04-17,STN11,5,False,,Auditor 10,Closed
+264,Provider Audit,Provider Audit - Maintenance at STN03,2022-03-22,2022-03-24,STN03,3,True,Ground Handling,Auditor 04,Closed
+265,Internal IOSA,Internal IOSA - Cargo at STN11,2023-01-09,2023-01-12,STN11,5,False,,Auditor 08,Closed
+266,Provider Audit,Provider Audit - Cabin Crew at STN06,2023-05-20,2023-05-22,STN06,2,True,Cargo,Auditor 09,Closed
+267,Provider Audit,Provider Audit - Ground Operations at STN11,2022-08-29,2022-08-31,STN11,4,True,Catering,Auditor 05,Closed
+268,Internal IOSA,Internal IOSA - Cargo at STN12,2021-01-22,2021-01-25,STN12,5,False,,Auditor 03,Closed
+269,Internal IOSA,Internal IOSA - Ground Operations at STN03,2021-09-26,2021-09-28,STN03,4,False,,Auditor 05,Closed
+270,Internal IOSA,Internal IOSA - Flight Operations at STN04,2024-11-12,2024-11-14,STN04,1,False,,Auditor 09,Closed
+271,Provider Audit,Provider Audit - Quality & Safety Management at STN08,2021-12-29,2022-01-01,STN08,7,True,Ground Handling,Auditor 03,Closed
+272,Internal IOSA,Internal IOSA - Ground Operations at STN11,2021-06-08,2021-06-10,STN11,4,False,,Auditor 07,Closed
+273,Internal IOSA,Internal IOSA - Ground Operations at STN06,2023-01-03,2023-01-07,STN06,4,False,,Auditor 02,Closed
+274,Provider Audit,Provider Audit - Flight Operations at STN09,2022-04-02,2022-04-04,STN09,1,True,Catering,Auditor 04,Closed
+275,Internal IOSA,Internal IOSA - Cargo at STN02,2021-05-30,2021-06-04,STN02,5,False,,Auditor 07,Closed
+276,Internal IOSA,Internal IOSA - Cargo at STN07,2023-12-29,2024-01-02,STN07,5,False,,Auditor 04,Closed
+277,Station Audit,Station Audit - Cargo at STN05,2021-02-17,2021-02-20,STN05,5,False,,Auditor 10,Closed
+278,Internal IOSA,Internal IOSA - Quality & Safety Management at STN03,2022-04-28,2022-04-30,STN03,7,False,,Auditor 10,Closed
+279,Thematic Audit,Thematic Audit - Maintenance at STN05,2021-01-17,2021-01-21,STN05,3,False,,Auditor 01,Closed
+280,Internal IOSA,Internal IOSA - Quality & Safety Management at STN03,2023-03-08,2023-03-12,STN03,7,False,,Auditor 04,Closed
+281,Provider Audit,Provider Audit - Maintenance at STN06,2023-08-08,2023-08-13,STN06,3,True,Cargo,Auditor 03,Closed
+282,Provider Audit,Provider Audit - Cabin Crew at STN02,2021-05-28,2021-05-30,STN02,2,True,Security,Auditor 02,Closed
+283,Internal IOSA,Internal IOSA - Quality & Safety Management at STN03,2024-03-28,2024-04-02,STN03,7,False,,Auditor 03,Closed
+284,Station Audit,Station Audit - Cabin Crew at STN12,2023-06-06,2023-06-08,STN12,2,False,,Auditor 04,Closed
+285,Station Audit,Station Audit - Flight Operations at STN09,2023-03-29,2023-04-02,STN09,1,False,,Auditor 03,Closed
+286,Internal IOSA,Internal IOSA - Maintenance at STN07,2022-03-20,2022-03-23,STN07,3,False,,Auditor 08,Closed
+287,Internal IOSA,Internal IOSA - Quality & Safety Management at STN03,2024-09-07,2024-09-12,STN03,7,False,,Auditor 08,Closed
+288,Internal IOSA,Internal IOSA - Quality & Safety Management at STN06,2024-01-07,2024-01-10,STN06,7,False,,Auditor 05,Closed
+289,Station Audit,Station Audit - Flight Operations at STN01,2022-10-01,2022-10-06,STN01,1,False,,Auditor 04,Closed
+290,Station Audit,Station Audit - Quality & Safety Management at STN09,2022-12-11,2022-12-16,STN09,7,False,,Auditor 01,Closed
+291,Provider Audit,Provider Audit - Cabin Crew at STN08,2024-10-10,2024-10-12,STN08,2,True,Security,Auditor 03,Closed
+292,Internal IOSA,Internal IOSA - Security at STN06,2024-06-24,2024-06-26,STN06,6,False,,Auditor 04,Closed
+293,Internal IOSA,Internal IOSA - Ground Operations at STN01,2024-02-09,2024-02-11,STN01,4,False,,Auditor 01,Closed
+294,Station Audit,Station Audit - Cabin Crew at STN11,2021-08-31,2021-09-03,STN11,2,False,,Auditor 03,Closed
+295,Provider Audit,Provider Audit - Cargo at STN01,2022-03-16,2022-03-20,STN01,5,True,Maintenance,Auditor 07,Closed
+296,Internal IOSA,Internal IOSA - Security at STN07,2022-01-11,2022-01-15,STN07,6,False,,Auditor 07,Closed
+297,Station Audit,Station Audit - Security at STN02,2024-01-04,2024-01-09,STN02,6,False,,Auditor 01,Closed
+298,Provider Audit,Provider Audit - Ground Operations at STN12,2023-02-21,2023-02-24,STN12,4,True,Maintenance,Auditor 01,Closed
+299,Internal IOSA,Internal IOSA - Cargo at STN01,2023-10-06,2023-10-08,STN01,5,False,,Auditor 10,Closed
+300,Station Audit,Station Audit - Quality & Safety Management at STN12,2021-03-12,2021-03-15,STN12,7,False,,Auditor 02,Closed
+301,Provider Audit,Provider Audit - Maintenance at STN01,2024-10-10,2024-10-14,STN01,3,True,Maintenance,Auditor 04,Closed
+302,Station Audit,Station Audit - Security at STN01,2021-09-14,2021-09-18,STN01,6,False,,Auditor 10,Closed
+303,Thematic Audit,Thematic Audit - Maintenance at STN01,2024-06-06,2024-06-11,STN01,3,False,,Auditor 06,Closed
+304,Station Audit,Station Audit - Cargo at STN08,2021-10-01,2021-10-05,STN08,5,False,,Auditor 07,Closed
+305,Thematic Audit,Thematic Audit - Quality & Safety Management at STN09,2024-04-10,2024-04-14,STN09,7,False,,Auditor 06,Closed
+306,Station Audit,Station Audit - Ground Operations at STN02,2022-12-28,2022-12-30,STN02,4,False,,Auditor 10,Closed
+307,Internal IOSA,Internal IOSA - Cargo at STN04,2024-10-04,2024-10-08,STN04,5,False,,Auditor 03,Closed
+308,Internal IOSA,Internal IOSA - Security at STN01,2023-10-14,2023-10-18,STN01,6,False,,Auditor 07,Closed
+309,Internal IOSA,Internal IOSA - Cargo at STN11,2024-10-23,2024-10-26,STN11,5,False,,Auditor 09,Closed
+310,Internal IOSA,Internal IOSA - Cargo at STN12,2021-06-28,2021-07-03,STN12,5,False,,Auditor 09,Closed
+311,Station Audit,Station Audit - Flight Operations at STN06,2023-03-24,2023-03-27,STN06,1,False,,Auditor 02,Closed
+312,Station Audit,Station Audit - Flight Operations at STN06,2022-11-30,2022-12-02,STN06,1,False,,Auditor 03,Closed
+313,Station Audit,Station Audit - Flight Operations at STN11,2022-11-16,2022-11-19,STN11,1,False,,Auditor 08,Closed
+314,Internal IOSA,Internal IOSA - Ground Operations at STN04,2022-05-06,2022-05-09,STN04,4,False,,Auditor 07,Closed
+315,Internal IOSA,Internal IOSA - Flight Operations at STN11,2024-10-02,2024-10-04,STN11,1,False,,Auditor 05,Closed
+316,Station Audit,Station Audit - Maintenance at STN03,2021-05-14,2021-05-18,STN03,3,False,,Auditor 09,Closed
+317,Internal IOSA,Internal IOSA - Cabin Crew at STN04,2022-12-03,2022-12-05,STN04,2,False,,Auditor 04,Closed
+318,Internal IOSA,Internal IOSA - Quality & Safety Management at STN07,2022-04-26,2022-04-29,STN07,7,False,,Auditor 08,Closed
+319,Internal IOSA,Internal IOSA - Cargo at STN07,2022-08-23,2022-08-28,STN07,5,False,,Auditor 09,Closed
+320,Station Audit,Station Audit - Security at STN11,2022-06-09,2022-06-14,STN11,6,False,,Auditor 10,Closed
+321,Provider Audit,Provider Audit - Maintenance at STN07,2021-03-14,2021-03-19,STN07,3,True,Catering,Auditor 06,Closed
+322,Station Audit,Station Audit - Cargo at STN06,2022-05-08,2022-05-11,STN06,5,False,,Auditor 09,Closed
+323,Provider Audit,Provider Audit - Flight Operations at STN01,2024-10-22,2024-10-25,STN01,1,True,Ground Handling,Auditor 04,Closed
+324,Provider Audit,Provider Audit - Security at STN05,2022-08-18,2022-08-21,STN05,6,True,Ground Handling,Auditor 07,Closed
+325,Provider Audit,Provider Audit - Ground Operations at STN11,2023-06-13,2023-06-16,STN11,4,True,Security,Auditor 03,Closed
+326,Internal IOSA,Internal IOSA - Cabin Crew at STN01,2021-07-10,2021-07-15,STN01,2,False,,Auditor 08,Closed
+327,Station Audit,Station Audit - Quality & Safety Management at STN04,2022-11-21,2022-11-25,STN04,7,False,,Auditor 04,Closed
+328,Station Audit,Station Audit - Security at STN09,2023-12-10,2023-12-13,STN09,6,False,,Auditor 02,Closed
+329,Internal IOSA,Internal IOSA - Cabin Crew at STN09,2022-06-30,2022-07-03,STN09,2,False,,Auditor 09,Closed
+330,Internal IOSA,Internal IOSA - Maintenance at STN08,2021-12-06,2021-12-08,STN08,3,False,,Auditor 05,Closed
+331,Provider Audit,Provider Audit - Quality & Safety Management at STN12,2023-12-29,2024-01-03,STN12,7,True,Maintenance,Auditor 09,Closed
+332,Station Audit,Station Audit - Security at STN07,2021-11-23,2021-11-25,STN07,6,False,,Auditor 01,Closed
+333,Provider Audit,Provider Audit - Cargo at STN06,2023-11-08,2023-11-11,STN06,5,True,Cargo,Auditor 01,Closed
+334,Station Audit,Station Audit - Flight Operations at STN11,2021-07-12,2021-07-17,STN11,1,False,,Auditor 01,Closed
+335,Provider Audit,Provider Audit - Quality & Safety Management at STN01,2022-06-20,2022-06-25,STN01,7,True,Maintenance,Auditor 06,Closed
+336,Station Audit,Station Audit - Ground Operations at STN08,2024-08-10,2024-08-13,STN08,4,False,,Auditor 07,Closed
+337,Internal IOSA,Internal IOSA - Maintenance at STN11,2021-11-17,2021-11-21,STN11,3,False,,Auditor 01,Closed
+338,Internal IOSA,Internal IOSA - Cargo at STN12,2024-03-31,2024-04-03,STN12,5,False,,Auditor 04,Closed
+339,Provider Audit,Provider Audit - Security at STN12,2023-12-18,2023-12-21,STN12,6,True,Maintenance,Auditor 02,Closed
+340,Internal IOSA,Internal IOSA - Security at STN08,2023-04-28,2023-05-02,STN08,6,False,,Auditor 06,Closed
+341,Internal IOSA,Internal IOSA - Cargo at STN09,2023-10-22,2023-10-24,STN09,5,False,,Auditor 04,Closed
+342,Station Audit,Station Audit - Cargo at STN03,2022-07-28,2022-08-01,STN03,5,False,,Auditor 01,Closed
+343,Internal IOSA,Internal IOSA - Quality & Safety Management at STN06,2022-06-21,2022-06-23,STN06,7,False,,Auditor 05,Closed
+344,Internal IOSA,Internal IOSA - Cabin Crew at STN03,2023-03-29,2023-04-03,STN03,2,False,,Auditor 08,Closed
+345,Provider Audit,Provider Audit - Quality & Safety Management at STN06,2023-11-04,2023-11-06,STN06,7,True,Cargo,Auditor 04,Closed
+346,Thematic Audit,Thematic Audit - Security at STN02,2021-04-02,2021-04-04,STN02,6,False,,Auditor 02,Closed
+347,Provider Audit,Provider Audit - Ground Operations at STN11,2023-12-06,2023-12-09,STN11,4,True,Security,Auditor 08,Closed
+348,Provider Audit,Provider Audit - Quality & Safety Management at STN10,2024-03-30,2024-04-02,STN10,7,True,Ground Handling,Auditor 04,Closed
+349,Internal IOSA,Internal IOSA - Maintenance at STN05,2023-07-13,2023-07-18,STN05,3,False,,Auditor 04,Closed
+350,Internal IOSA,Internal IOSA - Flight Operations at STN08,2024-09-24,2024-09-27,STN08,1,False,,Auditor 06,Closed
+351,Station Audit,Station Audit - Cabin Crew at STN01,2021-12-23,2021-12-28,STN01,2,False,,Auditor 07,Closed
+352,Provider Audit,Provider Audit - Cargo at STN02,2024-07-14,2024-07-17,STN02,5,True,Catering,Auditor 08,Closed
+353,Provider Audit,Provider Audit - Ground Operations at STN08,2023-02-19,2023-02-23,STN08,4,True,Security,Auditor 10,Closed
+354,Internal IOSA,Internal IOSA - Quality & Safety Management at STN12,2023-06-14,2023-06-19,STN12,7,False,,Auditor 09,Closed
+355,Station Audit,Station Audit - Maintenance at STN07,2021-08-24,2021-08-27,STN07,3,False,,Auditor 07,Closed
+356,Provider Audit,Provider Audit - Ground Operations at STN10,2021-08-30,2021-09-02,STN10,4,True,Maintenance,Auditor 10,Closed
+357,Provider Audit,Provider Audit - Cargo at STN09,2024-04-18,2024-04-21,STN09,5,True,Catering,Auditor 10,Closed
+358,Station Audit,Station Audit - Ground Operations at STN10,2023-06-01,2023-06-03,STN10,4,False,,Auditor 06,Closed
+359,Provider Audit,Provider Audit - Maintenance at STN09,2021-07-29,2021-07-31,STN09,3,True,Maintenance,Auditor 10,Closed
+360,Provider Audit,Provider Audit - Cabin Crew at STN03,2021-03-31,2021-04-05,STN03,2,True,Maintenance,Auditor 10,Closed
+361,Station Audit,Station Audit - Cabin Crew at STN01,2024-11-21,2024-11-23,STN01,2,False,,Auditor 10,Closed
+362,Provider Audit,Provider Audit - Security at STN01,2021-01-26,2021-01-28,STN01,6,True,Cargo,Auditor 07,Closed
+363,Internal IOSA,Internal IOSA - Maintenance at STN02,2021-09-13,2021-09-18,STN02,3,False,,Auditor 01,Closed
+364,Internal IOSA,Internal IOSA - Flight Operations at STN01,2024-01-04,2024-01-07,STN01,1,False,,Auditor 06,Closed
+365,Internal IOSA,Internal IOSA - Ground Operations at STN11,2022-06-06,2022-06-11,STN11,4,False,,Auditor 06,Closed
+366,Thematic Audit,Thematic Audit - Flight Operations at STN06,2023-12-23,2023-12-25,STN06,1,False,,Auditor 07,Closed
+367,Internal IOSA,Internal IOSA - Flight Operations at STN11,2024-01-19,2024-01-21,STN11,1,False,,Auditor 06,Closed
+368,Provider Audit,Provider Audit - Flight Operations at STN05,2022-11-20,2022-11-25,STN05,1,True,Catering,Auditor 09,Closed
+369,Provider Audit,Provider Audit - Cargo at STN09,2022-12-09,2022-12-13,STN09,5,True,Security,Auditor 10,Closed
+370,Provider Audit,Provider Audit - Flight Operations at STN08,2023-05-18,2023-05-23,STN08,1,True,Security,Auditor 03,Closed
+371,Station Audit,Station Audit - Ground Operations at STN01,2022-01-29,2022-02-01,STN01,4,False,,Auditor 06,Closed
+372,Internal IOSA,Internal IOSA - Maintenance at STN10,2022-04-24,2022-04-29,STN10,3,False,,Auditor 08,Closed
+373,Station Audit,Station Audit - Security at STN11,2023-06-16,2023-06-20,STN11,6,False,,Auditor 10,Closed
+374,Station Audit,Station Audit - Ground Operations at STN03,2024-05-01,2024-05-03,STN03,4,False,,Auditor 03,Closed
+375,Provider Audit,Provider Audit - Cabin Crew at STN04,2021-07-20,2021-07-22,STN04,2,True,Cargo,Auditor 02,Closed
+376,Thematic Audit,Thematic Audit - Ground Operations at STN11,2023-01-28,2023-02-01,STN11,4,False,,Auditor 07,Closed
+377,Station Audit,Station Audit - Security at STN02,2022-12-24,2022-12-29,STN02,6,False,,Auditor 02,Closed
+378,Internal IOSA,Internal IOSA - Cabin Crew at STN02,2022-03-09,2022-03-11,STN02,2,False,,Auditor 01,Closed
+379,Internal IOSA,Internal IOSA - Maintenance at STN05,2024-03-31,2024-04-04,STN05,3,False,,Auditor 04,Closed
+380,Internal IOSA,Internal IOSA - Cargo at STN05,2024-05-12,2024-05-15,STN05,5,False,,Auditor 06,Closed
+381,Internal IOSA,Internal IOSA - Flight Operations at STN09,2022-03-26,2022-03-29,STN09,1,False,,Auditor 10,Closed
+382,Provider Audit,Provider Audit - Flight Operations at STN10,2021-11-22,2021-11-25,STN10,1,True,Cargo,Auditor 02,Closed
+383,Internal IOSA,Internal IOSA - Flight Operations at STN02,2023-12-12,2023-12-15,STN02,1,False,,Auditor 03,Closed
+384,Station Audit,Station Audit - Ground Operations at STN01,2022-04-06,2022-04-11,STN01,4,False,,Auditor 06,Closed
+385,Provider Audit,Provider Audit - Cargo at STN06,2024-02-05,2024-02-09,STN06,5,True,Maintenance,Auditor 03,Closed
+386,Provider Audit,Provider Audit - Maintenance at STN02,2024-09-21,2024-09-26,STN02,3,True,Cargo,Auditor 03,Closed
+387,Station Audit,Station Audit - Ground Operations at STN01,2023-12-30,2024-01-01,STN01,4,False,,Auditor 04,Closed
+388,Internal IOSA,Internal IOSA - Flight Operations at STN08,2024-09-20,2024-09-25,STN08,1,False,,Auditor 01,Closed
+389,Provider Audit,Provider Audit - Ground Operations at STN03,2022-11-13,2022-11-17,STN03,4,True,Security,Auditor 02,Closed
+390,Internal IOSA,Internal IOSA - Security at STN07,2024-04-27,2024-05-01,STN07,6,False,,Auditor 10,Closed
+391,Station Audit,Station Audit - Security at STN11,2022-09-29,2022-10-02,STN11,6,False,,Auditor 03,Closed
+392,Station Audit,Station Audit - Cargo at STN07,2021-12-04,2021-12-08,STN07,5,False,,Auditor 01,Closed
+393,Station Audit,Station Audit - Maintenance at STN10,2023-02-16,2023-02-19,STN10,3,False,,Auditor 02,Closed
+394,Station Audit,Station Audit - Maintenance at STN12,2024-06-07,2024-06-11,STN12,3,False,,Auditor 10,Closed
+395,Internal IOSA,Internal IOSA - Quality & Safety Management at STN08,2021-12-24,2021-12-27,STN08,7,False,,Auditor 09,Closed
+396,Provider Audit,Provider Audit - Maintenance at STN04,2024-07-18,2024-07-21,STN04,3,True,Catering,Auditor 10,Closed
+397,Station Audit,Station Audit - Cabin Crew at STN08,2024-06-26,2024-06-30,STN08,2,False,,Auditor 08,Closed
+398,Thematic Audit,Thematic Audit - Cargo at STN09,2023-07-12,2023-07-14,STN09,5,False,,Auditor 07,Closed
+399,Station Audit,Station Audit - Maintenance at STN01,2024-02-01,2024-02-06,STN01,3,False,,Auditor 04,Closed
+400,Station Audit,Station Audit - Security at STN07,2022-03-25,2022-03-30,STN07,6,False,,Auditor 10,Closed

@@ -1,0 +1,8 @@
+department_id,department_code,department_name
+1,FO,Flight Operations
+2,CC,Cabin Crew
+3,MX,Maintenance
+4,GO,Ground Operations
+5,CGO,Cargo
+6,SEC,Security
+7,QMS,Quality & Safety Management
