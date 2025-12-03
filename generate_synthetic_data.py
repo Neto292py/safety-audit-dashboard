@@ -17,6 +17,8 @@ from datetime import datetime, timedelta
 
 import numpy as np
 import pandas as pd
+from pathlib import Path
+
 
 # -------------------------------------------------------------------
 # 0. Setup
@@ -30,6 +32,43 @@ os.makedirs("data", exist_ok=True)
 # "Today" reference for open/overdue logic
 TODAY = datetime(2024, 12, 31)
 CAPA_GO_LIVE = datetime(2023, 1, 1)
+
+
+# -----------------------------------------------------------
+# Load IOSA ISARP reference table (discipline + standard code)
+# -----------------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent
+ISARPS_PATH = BASE_DIR / "data" / "iosa_isarps.csv"
+
+# sep=None + engine='python' lets pandas auto-detect comma vs semicolon
+isarp_ref = pd.read_csv(ISARPS_PATH, sep=None, engine="python")
+
+# Rename columns from Excel headers to internal names
+isarp_ref = isarp_ref.rename(columns={
+    "Section": "discipline_code",
+    "ISARP": "standard_ref",
+})
+
+# Clean up values
+isarp_ref["discipline_code"] = isarp_ref["discipline_code"].str.strip().str.upper()
+isarp_ref["standard_ref"] = isarp_ref["standard_ref"].str.strip()
+
+# Build dict: discipline -> list of standard codes
+ISARPS_BY_DISC = {
+    disc: group["standard_ref"].tolist()
+    for disc, group in isarp_ref.groupby("discipline_code")
+}
+
+def pick_standard_ref_for_disc(disc_code: str) -> str:
+    """
+    Pick a realistic IOSA standard reference for a given discipline.
+    Falls back to a simple synthetic code if the discipline has no entries.
+    """
+    codes = ISARPS_BY_DISC.get(disc_code)
+    if codes:
+        return np.random.choice(codes)
+    return f"{disc_code} 0.0"
+
 
 # -------------------------------------------------------------------
 # 1. IOSA Disciplines dimension
@@ -249,7 +288,7 @@ for _, audit in audits.iterrows():
             "severity": severity,
             "category": category,
             "iosa_discipline_code": discipline_code,
-            "standard_ref": f"{discipline_code}-{np.random.randint(100, 999)}",
+            "standard_ref": pick_standard_ref_for_disc(discipline_code),
             "description": f"Synthetic finding {finding_id} in {category.lower()} category.",
             "risk_index": int(risk_index),
             "date_raised": date_raised.date(),

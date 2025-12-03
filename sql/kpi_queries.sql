@@ -49,19 +49,21 @@ SELECT
 FROM findings
 WHERE status = 'Closed';
 
+
 -- 4) Findings by station (with high/critical count)
---    Good for a bar chart: where do we see more findings, and how many are serious?
 SELECT
-    f.station_code,
+    a.station_code,
     s.station_name,
     s.country,
     COUNT(*) AS total_findings,
     SUM(CASE WHEN f.severity IN ('High', 'Critical') THEN 1 ELSE 0 END) AS high_critical_findings
 FROM findings AS f
+JOIN audits AS a
+    ON a.audit_id = f.audit_id
 LEFT JOIN stations AS s
-    ON f.station_code = s.station_code
+    ON s.station_code = a.station_code
 GROUP BY
-    f.station_code,
+    a.station_code,
     s.station_name,
     s.country
 ORDER BY
@@ -69,9 +71,8 @@ ORDER BY
 
 
 -- 5) On-time closure rate by station (closed findings only)
---    Great for a column chart or conditional formatting table.
 SELECT
-    f.station_code,
+    a.station_code,
     s.station_name,
     COUNT(*) AS closed_findings,
     SUM(
@@ -90,11 +91,13 @@ SELECT
         1
     ) AS pct_closed_on_time
 FROM findings AS f
+JOIN audits AS a
+    ON a.audit_id = f.audit_id
 LEFT JOIN stations AS s
-    ON f.station_code = s.station_code
+    ON s.station_code = a.station_code
 WHERE f.status = 'Closed'
 GROUP BY
-    f.station_code,
+    a.station_code,
     s.station_name
 ORDER BY
     pct_closed_on_time DESC;
@@ -136,19 +139,21 @@ ORDER BY
 
 
 -- 8) Average risk index by station
---    High-level view of where risk tends to be higher.
 SELECT
-    f.station_code,
+    a.station_code,
     s.station_name,
     s.country,
     ROUND(AVG(f.risk_index), 2) AS avg_risk_index,
     COUNT(*) AS total_findings
 FROM findings AS f
+JOIN audits AS a
+    ON a.audit_id = f.audit_id
 LEFT JOIN stations AS s
-    ON f.station_code = s.station_code
+    ON s.station_code = a.station_code
 GROUP BY
-    f.station_code,
+    a.station_code,
     s.station_name,
     s.country
 ORDER BY
     avg_risk_index DESC;
+
