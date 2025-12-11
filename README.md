@@ -1,152 +1,126 @@
 # Safety & Audit Performance Dashboard (Synthetic IOSA Dataset)
 
-End-to-end data project that simulates an airline’s **audit & findings tracking** process
-and delivers a **Power BI safety dashboard** for management.
+End-to-end **data analytics & BI project** that simulates an airline’s safety / quality audit program based on the IOSA structure.
 
-All data is **100% synthetic**, but it is structured to resemble a real IOSA audit
-environment (disciplines, ISARPs, stations, departments, closure performance, etc.).
+The project generates a **realistic synthetic dataset** of internal & provider audits, loads it into a **SQLite data mart**, and surfaces KPIs in a **Power BI executive dashboard** with drill-through analysis.
 
----
-
-## 1. Business problem
-
-Airline quality & safety teams run dozens of internal and provider audits every year.
-Findings are tracked in spreadsheets or local tools, making it hard to answer basic
-questions such as:
-
-- How many findings do we have by **station** and **IOSA discipline**?
-- What is our **on-time closure performance** vs target?
-- Which **stations / areas** show higher risk (open or overdue, high-critical)?
-- How quickly do we close findings on average?
-
-This project builds a repeatable pipeline and dashboard to monitor these questions.
+> All data is 100% synthetic. IOSA sections (ORG, FLT, DSP, CAB, MNT, GRH, CGO, SEC) and ISARP numbers are used only as a realistic reference.
 
 ---
 
-## 2. Solution overview
+## 1. Business context
 
-**Tech stack**
+**Scenario:** An airline Quality & Safety department wants to track:
 
-- **Python** – generate realistic synthetic IOSA audit & findings data
-- **SQLite** – lightweight relational database for analysis & SQL checks
-- **SQL** – KPI and sanity-check queries
-- **Power BI** – data model, DAX measures, executive dashboard & drill-through
-- **Git** – version control for all project assets
+- Volume and distribution of **audit findings**
+- **On-time vs overdue** closure performance
+- Risk levels by **IOSA discipline** and **station**
+- Where to prioritize follow-up actions (high-risk stations, disciplines, or providers)
 
-**High-level flow**
+This project answers those questions with an **interactive Power BI report** backed by a reproducible Python + SQL pipeline.
 
-1. `generate_synthetic_data.py`  
-   - Creates synthetic tables: stations, departments, calendar, audits, findings.  
-   - Uses a reference file of real IOSA sections and ISARP codes (`data/iosa_isarps.csv`) to
-     assign realistic `standard_ref` values (e.g. `ORG 1.1.1`, `FLT 3.2.4`).
+---
 
-2. `load_to_sqlite.py`  
-   - Loads the CSV files into a local `audit.db` SQLite database.  
-   - Tables: `stations`, `departments`, `calendar`, `audits`, `findings`, `iosa_disciplines`.
+## 2. Tech stack
 
-3. `sql/core_queries.sql`  
-   - Basic data quality checks (row counts, findings by severity, etc.).
-
-4. `sql/kpi_queries.sql`  
-   - SQL versions of the main KPIs (total findings, open/overdue, on-time closure, etc.).
-
-5. `Safety_Audit_Dashboard.pbix`  
-   - Power BI model + measures + report pages:
-     - **Executive Overview**
-     - **Station Detail** (drill-through)
+- **Python** (pandas, numpy) – synthetic data generation
+- **SQLite** – lightweight “audit” database
+- **SQL** – KPI & sanity-check queries
+- **Power BI Desktop** – data model, DAX measures, executive dashboard
+- **Git / GitHub** – version control & project sharing
 
 ---
 
 ## 3. Data model
 
-Key tables:
+The synthetic dataset mimics a small airline audit program with:
 
-- **stations** – station_code, station_name, country, region  
-- **departments** – department_id, department_code (FO, CAB, MX, GRH, CGO, QMS, DSP…), name  
-- **calendar** – one row per day, with year, month, year_month, week, etc.  
-- **iosa_disciplines** – discipline_code (ORG, FLT, DSP, CAB, MNT, CGO, GRH, SEC), discipline_name  
-- **audits** – audit_id, audit_type (Internal IOSA, Station Audit, Provider Audit…), department_id, station_code, start_date, end_date, status  
-- **findings** – finding_id, audit_id, severity, risk_index, category, iosadiscipline_code,
-  `standard_ref` (ISARP), description, status, date_raised, due_date, date_closed,
-  closed_on_time, repeat_flag, root_cause, responsible_owner, probability_score
+- `audits` – header for each audit (type, scope, station, dates, department, provider flag)
+- `findings` – individual findings per audit, including:
+  - severity, category, IOSA discipline, ISARP reference
+  - risk index, probability score, repeat flag
+  - dates (raised, due, closed), status (Open / Overdue / Closed)
+- `calendar` – date dimension for time-series analysis
+- `stations` – station code (IATA style: SJO, MEX, LIM, JFK, etc.), country, region
+- `departments` – FO, CAB, MX, GO, CGO, SEC, QMS, DSP (Dispatch)
+- `iosa_disciplines` – ORG, FLT, DSP, CAB, MNT, GRH, CGO, SEC
+- `iosa_isarps.csv` – mapping of **realistic ISARP numbers** (e.g. `ORG 1.1.1`, `FLT 3.2.4`) to disciplines
 
-Relationships in Power BI:
+The final **Power BI model** uses these relationships:
 
-- stations 1─* audits 1─* findings  
-- departments 1─* audits  
-- iosa_disciplines 1─* findings  
-- calendar 1─* findings (via `date_raised`)
-
----
-
-## 4. Power BI measures (examples)
-
-Core measures in the **findings** table (DAX):
-
-- `Total Findings`  
-- `Open or Overdue Findings`  
-- `Closed Findings`  
-- `High-Critical Findings` (severity in {"High","Critical"})  
-- `Closed On Time`  
-- `On-Time Closure % = DIVIDE([Closed On Time], [Closed Findings])`  
-- `Average Closure Days` (datediff between `date_raised` and `date_closed`)
-
-These measures are reused across all visuals and match SQL checks in
-`sql/kpi_queries.sql`.
+- `audits 1-* findings`
+- `calendar 1-* audits` (via start_date)
+- `stations 1-* audits`
+- `departments 1-* audits`
+- `iosa_disciplines 1-* findings`
 
 ---
 
-## 5. Report pages
+## 4. Key KPIs & DAX measures
+
+Some of the main measures implemented in Power BI:
+
+- **Total Findings**
+- **Open or Overdue Findings**
+- **On-Time Closure %**  
+  ` = DIVIDE([Closed On Time], [Closed Findings])`
+- **Average Closure Days (Closed Only)**
+- **High-Critical Findings** (severity in High / Critical)
+- **Open or Overdue Findings (Flag)** – for quick filtering
+
+These KPIs are used across cards, bar charts, and drill-through tables.
+
+---
+
+## 5. Power BI report pages
 
 ### 5.1 Executive Overview
 
-**Filters**
+High-level view for management with slicers for **Year**, **IOSA Discipline**, and **Station**.
 
-- Year (from calendar)
-- IOSA Discipline
-- Station
+**Visuals:**
 
-**KPIs**
+- KPI cards:
+  - Total Findings (All)
+  - Open or Overdue Findings
+  - On-Time Closure % (with target ≥ 80%)
+  - Avg Closure Days (Closed Only)
+- Top 10 Stations by Findings (bar chart)
+- Total Findings by IOSA Discipline (bar chart)
+- Total Findings by Month (line chart)
 
-- Total Findings (All)
-- Open or Overdue Findings
-- On-Time Closure % (target ≥ 80%)
-- Average Closure Days (Closed Only)
+**Use-case:** “Where are we seeing the highest audit risk overall?”
 
-**Visuals**
+---
 
-- Top 10 stations by findings
-- Total findings by IOSA discipline
-- Total findings by month (for selected year)
+### 5.2 Station Detail (Drill-through)
 
-This page answers: *“Where are we seeing more findings and how is closure performance
-evolving over time?”*
-
-### 5.2 Station Detail (drill-through)
-
-Detailed table of findings including:
+Detailed table of individual findings with fields such as:
 
 - Station, Department, Audit Type
-- Finding ID, description, IOSA ref, severity, risk index
-- Status, due/closed dates, closed on time flag
+- Finding ID, description, IOSA reference, severity, risk index
+- Status, due / closed dates, closed on time flag
 - Repeat flag, root cause, responsible owner
 
-Accessed via **drill-through** from the Executive Overview:
+**Accessed via drill-through:**
 
-- Right-click a station bar → **Drill through → Station Detail**  
-- Filters (year, discipline, station) are preserved.
+- Right-click a station bar on the Executive Overview →  
+  **Drill through → Station Detail**  
+- Filters (Year, Discipline, Station) are preserved.
+
+**Use-case:** “Show me all findings for station SJO in 2023 under ORG.”
 
 ---
 
 ## 6. How to run this project
 
-1. **Clone the repo / download the folder**.
-2. Install Python dependencies (pandas, numpy, etc.).
-3. From the project root, run:
+### 6.1 Requirements
 
-   ```bash
-   python generate_synthetic_data.py
-   python load_to_sqlite.py
+- Python 3.x installed
+- Power BI Desktop
+- Git (optional, for cloning)
 
-4. Open Safety_Audit_Dashboard.pbix in Power BI Desktop.
-5. Click Refresh to pull the latest CSV data.
+Install Python packages (from the project root):
+
+```bash
+pip install pandas numpy
