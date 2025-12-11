@@ -120,17 +120,6 @@ Detailed table of individual findings with fields such as:
 - Power BI Desktop
 - Git (optional, for cloning)
 
-Install Python packages (from the project root):
-
-```bash
-pip install pandas numpy
-
-Generate synthetic CSV data in /data
-python generate_synthetic_data.py
-
-Load CSVs into audit.db (SQLite)
-python load_to_sqlite.py
-
 ---
 
 ## 7. Skills demonstrated
