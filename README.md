@@ -124,3 +124,48 @@ Install Python packages (from the project root):
 
 ```bash
 pip install pandas numpy
+
+Generate synthetic CSV data in /data
+python generate_synthetic_data.py
+
+Load CSVs into audit.db (SQLite)
+python load_to_sqlite.py
+
+## 7. Skills demonstrated
+
+This project showcases:
+
+- **Data generation & simulation** with Python (`pandas`, `numpy`)
+- Designing a small **relational model** (SQLite) for analytics
+- Writing **SQL** for data validation & KPI logic
+- Building a **Power BI data model** (relationships, dimensions/facts)
+- Implementing **DAX measures** for operational KPIs
+- Designing **executive dashboards** with drill-through detail
+- Applying domain knowledge in **airline safety / IOSA auditing**
+- Using **Git & GitHub** for version control and sharing a reproducible project
+
+---
+
+## 8. Possible extensions
+
+Ideas for future improvements:
+
+- Add a **Provider** dimension (ground handling, maintenance, catering) and related KPIs.
+- Include **trend analysis** for On-Time Closure % by quarter / year.
+- Build a **risk matrix** (probability × severity) and show high-risk clusters.
+- Add **RLS (Row-Level Security)** roles in Power BI (e.g., Station Manager vs. HQ).
+- Containerise the pipeline (e.g., simple Docker setup) so it can be run anywhere.
+- Expose the SQLite DB to other BI tools (Tableau, Excel) for cross-tool comparison.
+
+---
+
+## 9. Contact
+
+If you have any questions, suggestions, or spot an issue, feel free to:
+
+- Open an **issue** in this repository, or  
+- Reach out via **LinkedIn** (link in my GitHub profile).
+
+
+
+
