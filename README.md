@@ -131,6 +131,8 @@ python generate_synthetic_data.py
 Load CSVs into audit.db (SQLite)
 python load_to_sqlite.py
 
+---
+
 ## 7. Skills demonstrated
 
 This project showcases:
